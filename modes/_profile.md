@@ -1,102 +1,117 @@
-# User Profile Context -- career-ops
+# User Profile Context — career-ops
+# Soroush Gholami · Senior Full-Stack Developer · Turkey Market
 
-<!-- ============================================================
-     THIS FILE IS YOURS. It will NEVER be auto-updated.
-     
-     Customize everything here: your archetypes, narrative,
-     proof points, negotiation scripts, location policy.
-     
-     The system reads _shared.md (updatable) first, then this
-     file (your overrides). Your customizations always win.
-     ============================================================ -->
+<!-- THIS FILE IS YOURS. It will NEVER be auto-updated.
+     Customizations here override everything in _shared.md. -->
 
 ## Your Target Roles
 
-<!-- Replace these with YOUR target roles. Examples:
-     - Senior Backend Engineer / Staff Platform Engineer
-     - AI Product Manager / Technical PM
-     - Data Engineer / ML Engineer
-     - DevOps / SRE / Platform
-     Whatever you're optimizing for. -->
-
 | Archetype | Thematic axes | What they buy |
 |-----------|---------------|---------------|
-| **AI Platform / LLMOps Engineer** | Evaluation, observability, reliability, pipelines | Someone who puts AI in production with metrics |
-| **Agentic Workflows / Automation** | HITL, tooling, orchestration, multi-agent | Someone who builds reliable agent systems |
-| **Technical AI Product Manager** | GenAI/Agents, PRDs, discovery, delivery | Someone who translates business to AI product |
-| **AI Solutions Architect** | Hyperautomation, enterprise, integrations | Someone who designs end-to-end AI architectures |
-| **AI Forward Deployed Engineer** | Client-facing, fast delivery, prototyping | Someone who delivers AI solutions to clients fast |
-| **AI Transformation Lead** | Change management, adoption, org enablement | Someone who leads AI transformation in an org |
+| **Senior Full-Stack Developer** | Laravel + React/Next.js, complex product platforms, fintech/e-commerce systems with real transaction volume | Someone who owns backend architecture end-to-end AND ships product UI |
+| **Senior Backend Engineer** | PHP/Laravel or Node.js, REST/GraphQL APIs, database optimization, cloud infra (AWS/Docker) | Someone building SaaS or financial products at scale |
+| **Tech Lead / Lead Developer** | Team leadership (code reviews, roadmap, architecture), cross-functional collaboration, mentoring | Proven tech lead — up to 14 engineers as CEO/co-founder; Porto architecture practitioner |
 
 ## Your Adaptive Framing
 
-<!-- Map YOUR projects to each archetype. Example:
-     | Platform / LLMOps | My monitoring dashboard project | article-digest.md |
-     | Agentic | My chatbot with HITL escalation | cv.md section 3 | -->
-
 | If the role is... | Emphasize about you... | Proof point sources |
 |-------------------|------------------------|---------------------|
-| Platform / LLMOps | Production systems builder, observability, evals | article-digest.md + cv.md |
-| Agentic / Automation | Multi-agent orchestration, HITL, reliability | article-digest.md + cv.md |
-| Technical AI PM | Product discovery, PRDs, metrics | cv.md + article-digest.md |
-| Solutions Architect | System design, integrations, enterprise-ready | article-digest.md + cv.md |
-| Forward Deployed Engineer | Fast delivery, client-facing, prototype to prod | cv.md + article-digest.md |
-| AI Transformation Lead | Change management, team enablement, adoption | cv.md + article-digest.md |
+| Full-Stack | BNPL platform (Laravel + Next.js, 12 modules), Innoghte WordPress → Laravel + React migration, IranSampler (Laravel + Vue.js) | cv.md · shahr-aghsat.com |
+| Backend / PHP / Laravel | DDD + modular monolith (Porto SAP), payment gateway integration, Redis queue systems, AWS cloud architecture | cv.md · article-digest.md |
+| Tech Lead / Lead | IranSampler (14-engineer team lead), Sinapse Porto re-architecture (cross-functional alignment), co-founder with 9-year company track record | cv.md |
+| Fintech / Payment | BNPL platform (BehPardakht gateway, wallet system, installment scheduling, 10B+ IRR/year), loan calculation engines | cv.md · article-digest.md |
+| Cloud / AWS | AWS Singapore: 25+ enterprise migrations, EC2/S3/RDS/SQS/ElastiCache, 99.9% SLA | cv.md |
+| SaaS / Multi-tenant | IranSampler: multi-tenant survey SaaS, per-tenant config, role-based access, 50+ enterprise clients | cv.md |
 
 ## Your Exit Narrative
 
-<!-- Replace with YOUR story. This frames everything. -->
+Use this to frame ALL content — summaries, cover letters, STAR openings:
 
-Use the candidate's exit story from `config/profile.yml` to frame ALL content:
-- **In PDF Summaries:** Bridge from past to future
-- **In STAR stories:** Reference proof points from article-digest.md
-- **In Draft Answers:** The transition narrative appears in the first response
+> "My career has been built around solving complex problems in environments where the easy path doesn't exist — founding a company in Malaysia, migrating enterprise systems at AWS Singapore, architecting BNPL platforms in the Middle East. I'm now targeting Turkey because it's one of the fastest-growing tech ecosystems in the region, with a thriving fintech scene and a strong demand for senior engineers who can own systems end-to-end. I bring exactly that: 15 years of scar tissue from building things that actually run in production."
+
+**In PDF summaries:** Bridge from fintech/cloud past → Turkish market present  
+**In STAR stories:** Reference 10B+ IRR/year, 25+ enterprise migrations, 14-engineer team  
+**In draft answers:** Lead with the transition narrative in the first response
 
 ## Your Cross-cutting Advantage
 
-<!-- What's your "signature move"? What do you do that others can't? -->
+Frame as **"Senior engineer with fintech depth and proven delivery at scale"**:
+- Payment systems expertise (BNPL, gateways, wallets) — rare combination
+- Full product ownership — co-founder who shipped entire platforms solo
+- AWS pedigree — 3 years at Amazon Web Services Singapore
+- Porto Architecture practitioner — applied in 2 production systems
+- AI-augmented workflows — Claude AI, GitHub Copilot, Cursor IDE daily
 
-Frame profile as **"Technical builder with real-world proof"** that adapts framing to the role.
+## Your Proof Points (never hardcode — read from cv.md + article-digest.md)
 
-## Your Portfolio / Demo
-
-<!-- If you have a live demo, dashboard, or public project:
-     url: https://yoursite.dev/demo
-     password: demo-2026
-     when_to_share: "LLMOps, AI Platform roles" -->
-
-If you have a live demo/dashboard (check profile.yml), offer access in applications for relevant roles.
+| Proof Point | Metric | Context |
+|-------------|--------|---------|
+| BNPL platform | 10B+ IRR/year in live transactions | 12 modules, Laravel + Next.js, BehPardakht gateway |
+| AWS migrations | 25+ enterprise apps | 3 years at Amazon Web Services Singapore |
+| Team leadership | Up to 14 engineers | IranSampler + CCBI Malaysia co-founder |
+| Porto architecture | 2 production systems | Sinapse (health AI) + Shahr-e-Aghsat (BNPL) |
+| UK education | M.Sc. Software Engineering, GPA 17/20 | Staffordshire University, thesis on distributed cloud systems |
+| English | IELTS Band 7.0 (C1+) | Professional-level — strong signal for Turkish companies hiring globally |
 
 ## Your Comp Targets
 
-<!-- Research comp ranges for YOUR target roles -->
-
-**General guidance:**
-- Use WebSearch for current market data (Glassdoor, Levels.fyi, Blind)
-- Frame by role title, not by skills
-- Contractor rates are typically 30-50% higher than employee base
+**Currency:** USD preferred (avoids TRY volatility)  
+**Target range:** USD 2,000–6,000/month net  
+**Walk-away:** USD 3,000/month net  
+**Istanbul on-site:** Factor in relocation support (one-time flight + first month accommodation)
 
 ## Your Negotiation Scripts
 
-<!-- Adapt to YOUR situation, currency, location -->
-
 **Salary expectations:**
-> "Based on market data for this role, I'm targeting [RANGE from profile.yml]. I'm flexible on structure -- what matters is the total package and the opportunity."
+> "Based on market data for Senior PHP/Laravel engineers in Istanbul, I'm targeting USD 3,000–5,000/month net. I'm flexible on structure — ESOP or performance bonus can complement base. What does the full package look like?"
 
 **Geographic discount pushback:**
-> "The roles I'm competitive for are output-based, not location-based. My track record doesn't change based on postal code."
+> "I'm relocating to Istanbul — I expect the offer to reflect Istanbul senior developer market rates, not a geographic discount based on my current location. My track record doesn't change based on postal code."
 
 **When offered below target:**
-> "I'm comparing with opportunities in the [higher range]. I'm drawn to [company] because of [reason]. Can we explore [target]?"
+> "I appreciate the offer. Based on my research into Istanbul senior PHP rates and the scope of this role, I was expecting something closer to [target]. Is there flexibility there, or alternatively on the equity / annual review timeline?"
+
+**Work permit question (ask early):**
+> "Before we go further, I want to confirm: does [company] sponsor work permits for Turkey? I'm relocating from the Middle East and want to make sure we're aligned before investing time on both sides."
 
 ## Your Location Policy
 
-<!-- Adapt to YOUR situation -->
-
-**In forms:**
-- Follow your actual availability from profile.yml
-- Specify timezone overlap in free-text fields
+**Current:** Middle East (Iran)  
+**Target:** Istanbul (first), Ankara (open), Remote Turkey-based (welcome)  
+**Relocation timeline:** Ready within 4–8 weeks of offer acceptance  
+**Visa:** Iranian passport — needs employer-sponsored work permit for Turkey  
 
 **In evaluations (scoring):**
-- Remote dimension for hybrid outside your country: score **3.0** (not 1.0)
-- Only score 1.0 if JD says "must be on-site 4-5 days/week, no exceptions"
+- Remote Turkey-based: location_fit = 5.0
+- Istanbul on-site / hybrid: location_fit = 4.5
+- Ankara on-site: location_fit = 3.5
+- Remote (any country, Turkey-based company): location_fit = 4.0
+- On-site 5 days/week outside Istanbul, no flexibility: location_fit = 1.5
+
+**Work permit scoring:**
+- JD explicitly mentions sponsorship: work_permit_clarity = 5.0
+- Company is multinational / 30+ countries: work_permit_clarity = 3.5
+- Turkish SME, no mention: work_permit_clarity = 1.5
+- JD says Turkish citizenship required: DISQUALIFIER — score ≤ 2.0
+
+## Disqualifiers (auto-fail regardless of other scores)
+
+- Requires Turkish citizenship only (no permit sponsorship)
+- Junior or entry-level role
+- Pure frontend / CSS / design role
+- PHP 5.x or legacy stack with no modernization plan
+- Salary clearly below USD 2,500/month equivalent
+- Commission-only or freelance-only structure
+
+## Writing Style
+
+_Derived from cv.md and profile.yml on 2026-05-16._
+
+**Tone:** Direct, confident, no hedging qualifiers — leads with achievement, not intention  
+**Sentence length:** Short to medium — punchy declaratives, max 20 words per bullet  
+**Openings:** Action-first ("Built", "Architected", "Led", "Migrated") — never passive  
+**Punctuation:** Em dashes for context asides, no ellipses, Oxford comma  
+**Vocabulary:** Prefers "built"/"shipped"/"ran"/"cut" over "developed"/"led"/"reduced"  
+**Structure:** Result-first in bullets (metric → action → context), prose in summaries  
+**Voice:** "I architected", "I led" — first-person active, no "we" unless team context  
+**Avoid:** "passionate about", "leveraged", "spearheaded", "proven track record", "results-oriented"
