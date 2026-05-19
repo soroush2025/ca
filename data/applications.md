@@ -2,6 +2,7 @@
 
 | # | Date | Company | Role | Score | Status | PDF | Report | Notes |
 |---|------|---------|------|-------|--------|-----|--------|-------|
+| 15 | 2026-05-19 | GamePoint | Full Stack Developer (PHP) | 3.1/5 | Evaluated | ✅ | [15](reports/015-gamepoint-fullstack-php-2026-05-19.md) | Netherlands social gaming co; Symfony gap + culture risk; confirm remote Turkey + salary first |
 | 1 | 2026-05-16 | Papara | Senior Software Engineer | 2.5/5 | Evaluated | ❌ | [1](reports/001-papara-2026-05-16.md) | .NET stack mismatch — PHP/Laravel not in scope; SKIP |
 | 2 | 2026-05-16 | iyzico | Software Engineer | 2.0/5 | Evaluated | ❌ | [2](reports/002-iyzico-se-2026-05-16.md) | Java stack + mid-level mismatch; SKIP |
 | 3 | 2026-05-16 | iyzico | Senior Software Engineer | 2.2/5 | Evaluated | ❌ | [3](reports/003-iyzico-senior-se-2026-05-16.md) | Java stack mismatch — payment domain strong but insufficient; SKIP |
