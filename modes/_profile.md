@@ -46,7 +46,7 @@ Frame as **"Senior engineer with fintech depth and proven delivery at scale"**:
 
 | Proof Point | Metric | Context |
 |-------------|--------|---------|
-| BNPL platform | 10B+ IRR/year in live transactions | 12 modules, Laravel + Next.js, BehPardakht gateway |
+| BNPL platform | 100B+ IRR/year in live transactions | 12 modules, Laravel + Next.js, BehPardakht gateway |
 | AWS migrations | 25+ enterprise apps | 3 years at Amazon Web Services Singapore |
 | Team leadership | Up to 14 engineers | IranSampler + CCBI Malaysia co-founder |
 | Porto architecture | 2 production systems | Sinapse (health AI) + Shahr-e-Aghsat (BNPL) |

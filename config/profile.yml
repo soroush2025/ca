@@ -14,7 +14,8 @@
 candidate:
   name: Soroush Gholami
   email: soroush2025@gmail.com
-  phone: "+98 998 140 4080"
+  telegram: "+905059399702"
+  telegram_handle: "@soroush2030"
   location: Middle East (open to relocation — Istanbul preferred)
   linkedin: https://linkedin.com/in/soroushgholami
   portfolio: ~ # Add your portfolio URL here when available
@@ -99,7 +100,7 @@ narrative:
     I architect and ship complex product systems — not just features.
     My most recent work was building an entire BNPL e-commerce platform
     from scratch (12 modules, live payment gateway, wallet system) that
-    now processes over 10 billion IRR annually. Before that, I spent
+    now processes over 100 billion IRR annually. Before that, I spent
     3 years at Amazon Web Services migrating 25+ enterprise applications
     to AWS across Southeast Asia. I combine deep Laravel expertise with
     modern React/Next.js frontends, and I actively use AI-assisted
@@ -134,7 +135,7 @@ narrative:
 
   # Key proof points — hero metrics to deploy in evaluations and cover letters
   proof_points:
-    - "Built and shipped a full BNPL platform (12 modules) — now processing 10B+ IRR/year in live transactions"
+    - "Built and shipped a full BNPL platform (12 modules) — now processing 100B+ IRR/year in live transactions"
     - "Migrated 25+ enterprise applications to AWS during 3 years at Amazon Web Services, Singapore"
     - "Co-founded and led an MSC-status IT company in Malaysia with up to 14 engineers (2010–2019)"
     - "Applied Porto architecture in two separate production systems (Sinapse, Shahr-e-Aghsat)"

@@ -3,7 +3,7 @@
 **Cloud Architecture · Fintech · E-Commerce · BNPL Systems**
 
 - **Email:** soroush2025@gmail.com
-- **Phone:** +98 998 140 4080
+- **Telegram:** +905059399702 · @soroush2030
 - **LinkedIn:** linkedin.com/in/soroushgholami
 - **Location:** Middle East (Open to relocation — Istanbul / Ankara preferred)
 - **English:** Professional (IELTS 7.0 · C1+)
@@ -12,7 +12,7 @@
 
 ## Professional Summary
 
-Senior Full-Stack Developer with 15+ years of progressive experience across Southeast Asia (Malaysia, Singapore, Vietnam) and the Middle East, delivering enterprise-grade web platforms, cloud infrastructure, and fintech systems. Expert in Laravel, PHP, and React/Next.js with a strong track record in architecting e-commerce, BNPL (Buy Now Pay Later), and loan management platforms processing over **10B IRR in annual transactions**.
+Senior Full-Stack Developer with 15+ years of progressive experience across Southeast Asia (Malaysia, Singapore, Vietnam) and the Middle East, delivering enterprise-grade web platforms, cloud infrastructure, and fintech systems. Expert in Laravel, PHP, and React/Next.js with a strong track record in architecting e-commerce, BNPL (Buy Now Pay Later), and loan management platforms processing over **100B IRR in annual transactions**.
 
 Holds an **M.Sc. in Software Engineering from Staffordshire University (UK)**. Experienced in leading teams of up to 14 engineers, applying Porto and Clean Architecture patterns, and integrating regional payment gateways. Proficient in AI-assisted development workflows using Claude AI (Anthropic), GitHub Copilot, and Cursor IDE.
 
@@ -54,7 +54,7 @@ Keycloak SSO, Filament Admin, Kafka, RabbitMQ, Zabbix, Jira, GitLab
 ## Work Experience
 
 ### Back-End Developer
-**Sinapse** · Middle East · *Jan 2026 – Apr 2026*
+**Sinapse** · Middle East · *Jan 2025 – Apr 2025*
 
 - Re-architected backend of an AI-powered health & preventive medicine platform using **Porto architecture** (github.com/Mahmoudz/Porto), separating code into Containers (business logic) and Ship (framework core) for clean scalability.
 - Restructured Laravel codebase into Porto's Actions, Tasks, and Repositories layers, reducing coupling between business domains and improving testability.
@@ -67,7 +67,7 @@ Keycloak SSO, Filament Admin, Kafka, RabbitMQ, Zabbix, Jira, GitLab
 ---
 
 ### Full-Stack Developer
-**Tandis Mandegar Pardis (Shahr-e-Aghsat Platform)** · Middle East · *Apr 2025 – Apr 2026*
+**Tandis Mandegar Pardis (Shahr-e-Aghsat Platform)** · Middle East · *Apr 2024 – Apr 2025*
 
 - Architected and developed **Shahr-e-Aghsat** (shahr-aghsat.com), a BNPL/installment purchasing system for digital goods.
 - Built wallet system, loan management module, and BehPardakht/Mellat Bank payment gateway integration handling **10B+ IRR in annual sales**.
@@ -79,7 +79,7 @@ Keycloak SSO, Filament Admin, Kafka, RabbitMQ, Zabbix, Jira, GitLab
 ---
 
 ### Senior PHP & React Developer
-**Innoghte (Remote – USA)** · Remote · *Apr 2024 – Nov 2025*
+**Innoghte (Remote – USA)** · Remote · *Apr 2023 – Nov 2023*
 
 - Led full migration of innoghte.com from WordPress to a modern **Laravel + React** stack.
 - Rebuilt all e-learning features including course management, user progress tracking, and content delivery.
@@ -90,7 +90,7 @@ Keycloak SSO, Filament Admin, Kafka, RabbitMQ, Zabbix, Jira, GitLab
 ---
 
 ### .NET Developer
-**Donya-e-Eqtesad Media Group** · Middle East · *May 2023 – Apr 2025*
+**Donya-e-Eqtesad Media Group** · Middle East · *May 2023 – Apr 2024*
 
 - Reviewed and updated 7 core internal systems for one of the region's largest financial media organizations.
 - Designed and built an internal news monitoring platform for real-time content tracking across multiple sources.
@@ -190,9 +190,23 @@ Keycloak SSO, Filament Admin, Kafka, RabbitMQ, Zabbix, Jira, GitLab
 | https://innoghte.com | E-learning platform (US-based) · WordPress → Laravel + React full migration |
 | https://innoghte.ir | Regional mirror of Innoghte · Laravel · React |
 | https://mosbatesabz.com | Online pharmacy e-commerce · WooCommerce · Laravel · Advanced MySQL |
+| https://mosbatesabz.com/mag | Content & magazine section of Mosbat Sabz · WordPress · SEO-optimized editorial |
+| https://tehrangarden.com | TehranGarden — web development & design project |
 | https://financialtribune.com | English-language Middle East financial news · .NET backend |
 | https://events.donya-e-eqtesad.com/fa | Donya-e-Eqtesad Events Portal · Internal system development |
 | https://ecoiran.com | EcoIran — regional economic news platform |
+
+---
+
+## Open Source Contributions & Extensions
+
+Extended and deployed the following open-source platforms in production, contributing custom modules, integrations, and architectural improvements beyond their original scope:
+
+| Project | What it is | Extensions & Contributions |
+|---------|-----------|---------------------------|
+| **Umami Analytics** — github.com/umami-software/umami | Privacy-focused open-source analytics (Google Analytics alternative) · Next.js · PostgreSQL | Extended with custom event tracking modules, multi-tenant dashboard support, and RTL layout. Integrated as self-hosted analytics backbone for e-commerce and BNPL platforms. |
+| **Twenty CRM** — github.com/twentyhq/twenty | Open-source CRM — AI-ready Salesforce alternative · Node.js · GraphQL · React | Deployed self-hosted instance with hybrid native + Docker setup. Extended GraphQL API for bulk lead imports with linked task creation. Configured OpenResty reverse proxy with SSL. Built custom lead pipeline flows. |
+| **Dub.co** — github.com/dubinc/dub | Modern open-source link attribution & short-link platform · Next.js · Prisma | Self-hosted and extended for campaign tracking across e-commerce and marketing funnels. Integrated with platform analytics pipelines and customized link metadata for regional audience targeting. |
 
 ---
 

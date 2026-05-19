@@ -13,7 +13,7 @@
 **Type:** Production system · Full-stack ownership  
 **Stack:** Laravel 10, Next.js 14, MySQL, Redis, BehPardakht/Mellat Bank gateway, Docker  
 **Architecture:** Porto SAP (Containers/Ship), 12 independent modules  
-**Scale:** 10B+ IRR/year in live transactions
+**Scale:** 100B+ IRR/year in live transactions
 
 ### What was built
 A complete Buy Now Pay Later (BNPL) / installment purchasing system for digital goods, built solo from scratch:
@@ -28,7 +28,7 @@ A complete Buy Now Pay Later (BNPL) / installment purchasing system for digital 
 - **Notification system** — Redis-queued SMS/email for payment reminders, confirmations
 
 ### Key proof points to deploy
-- "Single-handedly architected and shipped a 12-module BNPL platform — now processing 10B+ IRR/year in live transactions"
+- "Single-handedly architected and shipped a 12-module BNPL platform — now processing 100B+ IRR/year in live transactions"
 - "Zero payment failures over 6 months of live operation — idempotent gateway integration with full reconciliation"
 - "Applied Porto SAP architecture (Containers/Ship pattern) — each module independently maintainable, zero cross-module coupling violations"
 - "Redis queue workers for async installment processing — reduced notification latency from 30s to under 2s"
@@ -37,7 +37,7 @@ A complete Buy Now Pay Later (BNPL) / installment purchasing system for digital 
 - Fintech / payment roles: lead proof point
 - Backend architecture roles: Porto + DDD evidence
 - Full-stack roles: Laravel backend + Next.js frontend end-to-end ownership
-- Scale questions: 10B+ IRR/year, concurrent transactions, queue processing
+- Scale questions: 100B+ IRR/year, concurrent transactions, queue processing
 
 ---
 
@@ -191,3 +191,28 @@ Porto (Software Architectural Pattern — SAP) is a modular monolith pattern tha
 ### When to use
 - Any role mentioning AI tools as nice-to-have (increasingly common in 2025–2026 JDs)
 - Insider specifically listed Claude Code, Copilot, Cursor as desirable — this is a direct match
+
+---
+
+## Open Source Contributions & Extensions
+
+**Type:** Production deployments of open-source platforms with custom extensions  
+**Period:** Past 2 years  
+**Repos:** github.com/umami-software/umami · github.com/twentyhq/twenty · github.com/dubinc/dub
+
+### What was extended
+
+- **Umami Analytics** — self-hosted Google Analytics alternative (Next.js + PostgreSQL). Extended with custom event tracking modules, multi-tenant dashboard support, RTL layout. Integrated as analytics backbone for e-commerce and BNPL platforms.
+- **Twenty CRM** — open-source Salesforce alternative (Node.js + GraphQL + React). Extended GraphQL API for bulk lead imports with linked task creation. Configured OpenResty reverse proxy + SSL. Built custom lead pipeline flows.
+- **Dub.co** — link attribution and short-link platform (Next.js + Prisma). Self-hosted and extended for campaign tracking across e-commerce funnels. Integrated with platform analytics pipelines.
+
+### Key proof points to deploy
+- "Extended 3 open-source platforms (Umami, Twenty CRM, Dub.co) in production — custom modules, GraphQL extensions, multi-tenant support"
+- "Self-hosted and extended Umami Analytics with RTL support and multi-tenant dashboards for BNPL platform — zero third-party analytics dependency"
+- "Extended Twenty CRM's GraphQL API with bulk import flows and OpenResty SSL configuration — full-stack open-source contribution"
+
+### When to use
+- Roles asking for open-source contribution experience
+- Roles needing GraphQL API experience (Twenty CRM extension)
+- Companies that value self-hosting / data ownership culture
+- Full-stack roles: shows Next.js, GraphQL, PostgreSQL, Node.js hands-on work beyond just Laravel
