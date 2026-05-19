@@ -103,6 +103,25 @@ Frame as **"Senior engineer with fintech depth and proven delivery at scale"**:
 - Salary clearly below USD 2,500/month equivalent
 - Commission-only or freelance-only structure
 
+## Evaluation Behavior Rules
+
+These rules apply every time a URL or JD is evaluated. They override any default behavior in `oferta.md` or `_shared.md`.
+
+**NEVER suggest visiting portfolio/website URLs** in any evaluation block (A–G).
+- Do not write "check your work at shahr-aghsat.com", "your portfolio at iransampler.com", "see this at innoghte.com", or any variant.
+- Do not reference live websites as evidence or proof points.
+- If a gap exists, address it by describing the talent or experience — not by pointing to a URL.
+
+**NEVER edit or rewrite cv.md** during an evaluation. Block E suggestions are output-only: display them in the report, never write them to disk. The user decides what to update.
+
+**Lead suggestions with talent, not links.** When filling gaps or framing proof points, describe skills and achievements in plain language:
+- ✅ "You built a complete BNPL wallet system with Redis-queued installment notifications — use that to demonstrate async architecture"
+- ❌ "Check shahr-aghsat.com to show the interviewer your payment work"
+
+**Proof point framing order:** achievement metric → what was built → which skill it proves. Never append a URL.
+
+---
+
 ## Writing Style
 
 _Derived from cv.md and profile.yml on 2026-05-16._
