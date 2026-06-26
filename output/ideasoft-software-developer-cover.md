@@ -7,7 +7,7 @@ ideasoft's position as Turkey's established e-commerce infrastructure platform, 
 
 Over 15 years I have delivered web platforms, fintech infrastructure, and SaaS systems across Southeast Asia and the Middle East. My most recent work was a complete Buy Now Pay Later (BNPL) e-commerce platform (12 modules, live payment gateway, multi-tenant architecture) built and shipped in Laravel, now operating in production. Before that, I led engineering teams at IranSampler and co-founded a technology company in Malaysia with a team of 14 engineers. I hold an M.Sc. in Software Engineering from Staffordshire University (UK) and work in English across all technical documentation, code reviews, and cross-functional communication.
 
-- **Built wallet system, loan management module, and Mellat Bank payment gateway integration,** processing 100B+ IRR in annual BNPL sales with idempotent gateway design and zero payment failures in six months of live operation.
+- **Built wallet system, loan management module, and  Bank payment gateway integration,** processing 100B+ in annual BNPL sales with idempotent gateway design and zero payment failures in six months of live operation.
 
 - **Applied Porto architecture (Containers/Ship pattern) across two production systems,** reducing coupling between business domains, improving testability, and giving each module independent maintainability without touching adjacent services.
 
