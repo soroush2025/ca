@@ -2,6 +2,7 @@
 
 | # | Date | Company | Role | Score | Status | PDF | Report | Notes |
 |---|------|---------|------|-------|--------|-----|--------|-------|
+| 21 | 2026-06-26 | Amaris / Akakçe | Frontend Developer / Senior Front-end Developer | 3.1/5 | Evaluated | ✅ | [021](../reports/021-amaris-akakce-frontend-2026-06-26.md) | PDFs generated — review before submitting |
 | 18 | 2026-06-26 | Blueclip Partner | Backend Software Engineer | 3.2/5 | Evaluated | ❌ | [018](../reports/018-blueclip-partner-backend-swe-2026-06-26.md) | Python gap + no company name — hold until clarified |
 | 19 | 2026-06-26 | ideasoft | Software Developer (Senior PHP) | 3.8/5 | Evaluated | ❌ | [019](../reports/019-ideasoft-software-developer-2026-06-26.md) | Best match of the 3; confirm work permit + lead with Sipay fintech angle |
 | 20 | 2026-06-26 | Unknown | Backend Developer (Python/PHP) | 2.2/5 | Evaluated | ❌ | [020](../reports/020-unknown-backend-developer-2026-06-26.md) | No company name/location/salary — do not apply until clarified |
