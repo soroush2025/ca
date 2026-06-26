@@ -2,6 +2,7 @@
 
 | # | Date | Company | Role | Score | Status | PDF | Report | Notes |
 |---|------|---------|------|-------|--------|-----|--------|-------|
+| 17 | 2026-05-19 | Peak | Software Engineer – Backend | 2.5/5 | Evaluated | ❌ | [17](reports/017-peak-backend-engineer-2026-05-19.md) | Java Spring Boot primary gap; comp likely below walk-away; gaming WLB 2.5/5; SKIP |
 | 15 | 2026-05-19 | GamePoint | Full Stack Developer (PHP) | 3.1/5 | Evaluated | ✅ | [15](reports/015-gamepoint-fullstack-php-2026-05-19.md) | Netherlands social gaming co; Symfony gap + culture risk; confirm remote Turkey + salary first |
 | 1 | 2026-05-16 | Papara | Senior Software Engineer | 2.5/5 | Evaluated | ❌ | [1](reports/001-papara-2026-05-16.md) | .NET stack mismatch — PHP/Laravel not in scope; SKIP |
 | 2 | 2026-05-16 | iyzico | Software Engineer | 2.0/5 | Evaluated | ❌ | [2](reports/002-iyzico-se-2026-05-16.md) | Java stack + mid-level mismatch; SKIP |
@@ -14,6 +15,6 @@
 | 9 | 2026-05-16 | Insider | Senior Fullstack Engineer – Go/PHP/Node.js & Vue.js – Europe | 3.8/5 | Evaluated | ❌ | [9](reports/009-insider-senior-fullstack-go-php-node-europe-2026-05-16.md) | Strong match; verify Turkey qualifies as Europe for this posting; REVIEW |
 | 10 | 2026-05-16 | Insider | Senior Software Engineer – PHP/Go | 4.2/5 | Evaluated | ✅ | [10](reports/010-insider-senior-se-php-go-2026-05-16.md) | Backend-only best Insider fit; 403 blocks — verify liveness; APPLY if active |
 | 11 | 2026-05-16 | Trendyol | Backend Developer | 2.5/5 | Evaluated | ❌ | [11](reports/011-trendyol-backend-developer-2026-05-16.md) | PHP not in stack; Java/Go primary — excellent company, wrong stack; SKIP |
-| 12 | 2026-05-16 | Trendyol | Full Stack Developer | 2.8/5 | Evaluated | ❌ | [12](reports/012-trendyol-fullstack-developer-2026-05-16.md) | React accepted; Node.js qualifies; Go primary gap; worth verifying; REVIEW |
+| 12 | 2026-05-19 | Trendyol | Full-Stack Developer – Data Management | 3.7/5 | Evaluated | ❌ | [16](reports/016-trendyol-fullstack-data-management-2026-05-19.md) | Re-eval 2026-05-19 (2.8→3.7). Node.js accepted; hybrid Istanbul Maslak; data domain not required; APPLY if Node.js depth solid |
 | 13 | 2026-05-16 | Adorel | Laravel Full Stack Yazılım Geliştirici (Laravel + AI) | 3.8/5 | Evaluated | ❌ | [13](reports/013-adorel-laravel-fullstack-ai-2026-05-16.md) | Excellent stack match; Ankara location + smaller company + work permit uncertain; REVIEW |
 | 14 | 2026-05-16 | AppTec Services GmbH | Full Stack Developer / IoT Yazılım Geliştirici – Remote | 3.2/5 | Evaluated | ❌ | [14](reports/014-apptec-fullstack-iot-2026-05-16.md) | Remote German co; IoT domain gap + 8x recurring posting red flag; REVIEW low effort |
