@@ -2,6 +2,9 @@
 
 | # | Date | Company | Role | Score | Status | PDF | Report | Notes |
 |---|------|---------|------|-------|--------|-----|--------|-------|
+| 18 | 2026-06-26 | Blueclip Partner | Backend Software Engineer | 3.2/5 | Evaluated | ❌ | [018](../reports/018-blueclip-partner-backend-swe-2026-06-26.md) | Python gap + no company name — hold until clarified |
+| 19 | 2026-06-26 | ideasoft | Software Developer (Senior PHP) | 3.8/5 | Evaluated | ❌ | [019](../reports/019-ideasoft-software-developer-2026-06-26.md) | Best match of the 3; confirm work permit + lead with Sipay fintech angle |
+| 20 | 2026-06-26 | Unknown | Backend Developer (Python/PHP) | 2.2/5 | Evaluated | ❌ | [020](../reports/020-unknown-backend-developer-2026-06-26.md) | No company name/location/salary — do not apply until clarified |
 | 17 | 2026-05-19 | Peak | Software Engineer – Backend | 2.5/5 | Evaluated | ❌ | [17](reports/017-peak-backend-engineer-2026-05-19.md) | Java Spring Boot primary gap; comp likely below walk-away; gaming WLB 2.5/5; SKIP |
 | 15 | 2026-05-19 | GamePoint | Full Stack Developer (PHP) | 3.1/5 | Evaluated | ✅ | [15](reports/015-gamepoint-fullstack-php-2026-05-19.md) | Netherlands social gaming co; Symfony gap + culture risk; confirm remote Turkey + salary first |
 | 1 | 2026-05-16 | Papara | Senior Software Engineer | 2.5/5 | Evaluated | ❌ | [1](reports/001-papara-2026-05-16.md) | .NET stack mismatch — PHP/Laravel not in scope; SKIP |
