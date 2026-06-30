@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "firecrawl": {
+      "type": "http",
+      "url": "https://mcp.firecrawl.dev/fc-659dcb3f7a5347c5bcf43a9768d29af0/v2/mcp"
+    }
+  }
+}
