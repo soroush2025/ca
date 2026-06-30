@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Soroush Gholami -- CV</title>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-variant-ligatures: none;
+    font-feature-settings: "liga" 0, "clig" 0, "dlig" 0;
+  }
+
+  html {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  body {
+    font-family: 'Liberation Sans', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif;
+    font-size: 11px;
+    line-height: 1.5;
+    color: #1a1a2e;
+    background: #ffffff;
+    padding: 0;
+    margin: 0;
+    font-variant-ligatures: none;
+    font-feature-settings: "liga" 0, "clig" 0, "dlig" 0;
+  }
+
+  .page {
+    width: 100%;
+    max-width: 794px;
+    margin: 0 auto;
+    padding: 2px 0;
+  }
+
+  .header {
+    margin-bottom: 20px;
+  }
+
+  .header h1 {
+    font-family: 'Liberation Sans', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #1a1a2e;
+    letter-spacing: -0.02em;
+    margin-bottom: 6px;
+    line-height: 1.1;
+  }
+
+  .header-gradient {
+    height: 2px;
+    background: linear-gradient(to right, hsl(187, 74%, 32%), hsl(270, 70%, 45%));
+    border-radius: 1px;
+    margin-bottom: 10px;
+  }
+
+  .contact-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+    font-family: 'Liberation Sans', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif;
+    font-size: 10.5px;
+    line-height: 1.4;
+    color: #555;
+  }
+
+  .contact-row a {
+    color: #555;
+    text-decoration: none;
+  }
+
+  .contact-row .separator {
+    color: #ccc;
+  }
+
+  .section {
+    margin-bottom: 18px;
+  }
+
+  .section-title {
+    font-family: 'Liberation Sans', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: hsl(187, 74%, 32%);
+    border-bottom: 1.5px solid #e2e2e2;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+  }
+
+  .summary-text {
+    font-size: 11px;
+    line-height: 1.7;
+    color: #2f2f2f;
+  }
+
+  a {
+    white-space: nowrap;
+  }
+
+  .competencies-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .competency-tag {
+    font-family: 'Liberation Sans', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    color: hsl(187, 74%, 28%);
+    background: hsl(187, 40%, 95%);
+    padding: 4px 10px;
+    border-radius: 3px;
+    border: 1px solid hsl(187, 40%, 88%);
+  }
+
+  .job {
+    margin-bottom: 14px;
+  }
+
+  .job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 4px;
+  }
+
+  .job-company {
+    font-family: 'Liberation Sans', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif;
+    font-size: 12.5px;
+    font-weight: 600;
+    color: hsl(270, 70%, 45%);
+  }
+
+  .job-period {
+    font-size: 10.5px;
+    color: #777;
+    white-space: nowrap;
+  }
+
+  .job-role {
+    font-size: 11px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 6px;
+  }
+
+  .job-location {
+    font-size: 10px;
+    color: #888;
+  }
+
+  .job ul {
+    padding-left: 18px;
+    margin-top: 6px;
+  }
+
+  .job li {
+    font-size: 10.5px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 4px;
+  }
+
+  .job li strong {
+    font-weight: 600;
+  }
+
+  .project {
+    margin-bottom: 12px;
+  }
+
+  .project-title {
+    font-family: 'Liberation Sans', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif;
+    font-size: 11.5px;
+    font-weight: 600;
+    color: hsl(270, 70%, 45%);
+  }
+
+  .project-badge {
+    font-size: 9px;
+    font-weight: 500;
+    color: hsl(187, 74%, 32%);
+    background: hsl(187, 40%, 95%);
+    padding: 1px 6px;
+    border-radius: 2px;
+    margin-left: 6px;
+  }
+
+  .project-desc {
+    font-size: 10.5px;
+    color: #444;
+    margin-top: 3px;
+    line-height: 1.55;
+  }
+
+  .project-tech {
+    font-size: 9.5px;
+    color: #888;
+    margin-top: 3px;
+  }
+
+  .edu-item {
+    margin-bottom: 8px;
+  }
+
+  .edu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+  }
+
+  .edu-title {
+    font-weight: 600;
+    font-size: 11px;
+    color: #333;
+  }
+
+  .edu-org {
+    color: hsl(270, 70%, 45%);
+    font-weight: 500;
+  }
+
+  .edu-year {
+    font-size: 10px;
+    color: #777;
+    white-space: nowrap;
+  }
+
+  .edu-desc {
+    font-size: 10px;
+    color: #666;
+    margin-top: 2px;
+    line-height: 1.5;
+  }
+
+  .cert-table {
+    display: table;
+    width: 100%;
+  }
+
+  .cert-item {
+    display: table-row;
+  }
+
+  .cert-item > * {
+    display: table-cell;
+    vertical-align: baseline;
+    padding-bottom: 6px;
+  }
+
+  .cert-title {
+    font-size: 10.5px;
+    font-weight: 500;
+    color: #333;
+  }
+
+  .cert-org {
+    color: hsl(270, 70%, 45%);
+    white-space: nowrap;
+  }
+
+  .cert-year {
+    font-size: 10px;
+    color: #777;
+    white-space: nowrap;
+    text-align: right;
+    width: 44px;
+  }
+
+  .skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 14px;
+  }
+
+  .skill-item {
+    font-size: 10.5px;
+    color: #444;
+  }
+
+  .skill-category {
+    font-weight: 600;
+    color: #333;
+    font-size: 10.5px;
+  }
+
+  @media print {
+    body {
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+    .page {
+      padding: 0;
+    }
+  }
+
+  .header,
+  .edu-item,
+  .cert-item,
+  .competency-tag,
+  .skill-item {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .section-title,
+  .job-company,
+  .project-title {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- HEADER -->
+  <div class="header">
+    <h1>Soroush Gholami</h1>
+    <div class="header-gradient"></div>
+    <div class="contact-row">
+      <a href="tel:+905059399702">+905059399702</a>
+      <span class="separator">|</span>
+      <a href="mailto:soroush2025@gmail.com">soroush2025@gmail.com</a>
+      <span class="separator">|</span>
+      <a href="https://linkedin.com/in/soroushgholami">linkedin.com/in/soroushgholami</a>
+      <span class="separator">|</span>
+      <span>Remote | Open to relocation</span>
+      <span class="separator">|</span>
+      <span>English: C1+ (IELTS 7.0)</span>
+    </div>
+  </div>
+
+  <!-- PROFESSIONAL SUMMARY -->
+  <div class="section">
+    <div class="section-title">Professional Summary</div>
+    <div class="summary-text">
+      Senior Fullstack Developer with 15+ years building scalable APIs, microservices systems, and fintech platforms in
+      <strong>Node.js, React.js, PHP/Laravel, and AWS</strong>. Extended production Node.js/GraphQL APIs in real deployments
+      (Twenty CRM: bulk import mutations, OpenResty reverse proxy, custom pipeline flows). Built Redis-queued async
+      microservices and a 12-module BNPL platform now processing <strong>100B+ IRR/year</strong> in live transactions.
+      Migrated 25+ enterprise applications to AWS at Amazon Web Services Singapore (99.9% SLA, 3 years).
+      Deep experience in SQL (MySQL, PostgreSQL), MongoDB, Docker, and clean architecture patterns (Porto SAP, DDD).
+      Proven remote delivery for US and Singapore clients. Ready for full async collaboration.
+    </div>
+  </div>
+
+  <!-- CORE COMPETENCIES -->
+  <div class="section">
+    <div class="section-title">Core Competencies</div>
+    <div class="competencies-grid">
+      <span class="competency-tag">Node.js - REST APIs - GraphQL</span>
+      <span class="competency-tag">React.js - Next.js 14</span>
+      <span class="competency-tag">Microservices Architecture</span>
+      <span class="competency-tag">MongoDB - SQL (MySQL/PostgreSQL)</span>
+      <span class="competency-tag">Redis - Async Queue Workers</span>
+      <span class="competency-tag">PHP 8.x - Laravel 10/11</span>
+      <span class="competency-tag">AWS Cloud Infrastructure</span>
+      <span class="competency-tag">Docker - Kubernetes - CI/CD</span>
+      <span class="competency-tag">Porto Architecture - DDD - SOLID</span>
+      <span class="competency-tag">Reusable Libraries - Framework Design</span>
+      <span class="competency-tag">Low-Latency System Optimization</span>
+      <span class="competency-tag">Payment Systems - BNPL - Wallets</span>
+      <span class="competency-tag">Tech Lead - Teams up to 14</span>
+      <span class="competency-tag">Remote Async Delivery</span>
+    </div>
+  </div>
+
+  <!-- TECHNICAL SKILLS -->
+  <div class="section">
+    <div class="section-title">Technical Skills</div>
+    <div class="skills-grid">
+      <div class="skill-item"><span class="skill-category">Backend:</span> Node.js, PHP 8.x, Laravel 10/11, REST API, GraphQL, ASP.NET Core, Porto Architecture, SOLID, DDD</div>
+      <div class="skill-item"><span class="skill-category">Frontend:</span> React.js, Next.js 14, Vue.js 3, Nuxt.js, TypeScript, Tailwind CSS, HTML5, CSS3</div>
+      <div class="skill-item"><span class="skill-category">Databases:</span> MySQL, PostgreSQL, MongoDB, Redis, Elasticsearch - design, query optimization, multi-tenant schemas</div>
+      <div class="skill-item"><span class="skill-category">Cloud &amp; DevOps:</span> AWS (EC2, S3, RDS, SQS, Lambda, ElastiCache), Docker, Kubernetes, GitLab CI/CD, Nginx, OpenResty</div>
+      <div class="skill-item"><span class="skill-category">Architecture:</span> Microservices, Modular Monolith, SOA, Porto SAP, Turborepo Monorepo, Multi-tenant SaaS</div>
+      <div class="skill-item"><span class="skill-category">Fintech:</span> Payment gateway integration (BehPardakht/Mellat Bank), Wallet systems, BNPL/installment modules, loan engines</div>
+      <div class="skill-item"><span class="skill-category">AI-Assisted Dev:</span> Claude AI, GitHub Copilot, Cursor IDE - daily workflows for refactoring, code review, delivery velocity</div>
+      <div class="skill-item"><span class="skill-category">Tools:</span> Kafka, RabbitMQ, Keycloak SSO, Filament Admin, Zabbix, Jira, GitLab</div>
+    </div>
+  </div>
+
+  <!-- WORK EXPERIENCE -->
+  <div class="section">
+    <div class="section-title">Work Experience</div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">Tandis Mandegar Pardis (Shahr-e-Aghsat)</span>
+        <span class="job-period">Apr 2024 - Apr 2025</span>
+      </div>
+      <div class="job-role">Full-Stack Developer <span class="job-location">- Middle East</span></div>
+      <ul>
+        <li>Architected and shipped a <strong>12-module BNPL platform</strong> from scratch - wallet system, loan management, installment scheduler, BehPardakht/Mellat Bank gateway - now processing <strong>100B+ IRR/year</strong> in live transactions.</li>
+        <li>Built <strong>Redis-queued async microservices</strong> for installment processing - reduced notification delivery latency from 30s to under 2s; zero message loss across 6 months live.</li>
+        <li>Designed modular service architecture using <strong>Porto SAP pattern</strong> (Containers/Ship/Actions/Tasks/Repositories) - 12 independent containers with zero cross-module coupling violations.</li>
+        <li>Stack: <strong>Laravel 10 backend + Next.js 14 frontend</strong>, MySQL, Redis, Docker, OpenResty, SSL.</li>
+        <li>Implemented idempotent payment gateway integration with full error handling, webhook validation, and transaction reconciliation.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">Sinapse</span>
+        <span class="job-period">Jan 2025 - Apr 2025</span>
+      </div>
+      <div class="job-role">Back-End Developer <span class="job-location">- Middle East</span></div>
+      <ul>
+        <li>Re-architected backend of an AI-powered health platform using <strong>Porto architecture</strong> - converted legacy MVC codebase into isolated Containers (business logic) and Ship (framework core) for clean scalability.</li>
+        <li>Restructured into Porto's Actions, Tasks, and Repositories layers - reduced coupling between business domains and improved parallel team development.</li>
+        <li>Cut critical API response times through targeted query optimization, Redis caching, and service decomposition.</li>
+        <li>Exposed structured API contracts for ML/AI team integration - designed clean boundaries between predictive features and core platform.</li>
+        <li>Used LLM-assisted workflows (Claude AI, Copilot) to deliver full re-architecture under tight deadline.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">Innoghte (Remote - USA)</span>
+        <span class="job-period">Apr 2023 - Nov 2023</span>
+      </div>
+      <div class="job-role">Senior PHP &amp; React Developer <span class="job-location">- Remote</span></div>
+      <ul>
+        <li>Led end-to-end migration from WordPress to <strong>Laravel + React</strong> stack - rebuilt all e-learning features (course management, user progress, content delivery, subscriptions) with zero downtime.</li>
+        <li>Rebuilt frontend from WordPress themes to a <strong>React component library</strong> - reusable, testable, composable UI architecture.</li>
+        <li>Improved page load performance ~60% post-migration by eliminating WordPress overhead.</li>
+        <li>Full remote async delivery for US client - English-only technical communication throughout.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">Donya-e-Eqtesad Media Group</span>
+        <span class="job-period">May 2023 - Apr 2024</span>
+      </div>
+      <div class="job-role">.NET Developer <span class="job-location">- Middle East</span></div>
+      <ul>
+        <li>Reviewed and upgraded 7 core internal systems for a large financial media organization.</li>
+        <li>Designed and built an internal news monitoring platform for real-time content aggregation across multiple sources.</li>
+        <li>Improved system stability through code refactoring, infrastructure upgrades, and query optimization.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">Amargaran Tafakkor Ideal (IranSampler)</span>
+        <span class="job-period">Aug 2022 - May 2023</span>
+      </div>
+      <div class="job-role">Team Lead &amp; Senior Developer <span class="job-location">- Middle East</span></div>
+      <ul>
+        <li>Led development of IranSampler - a professional multi-tenant SaaS survey platform (comparable to Typeform/PorsLine).</li>
+        <li>Architected <strong>multi-tenant data model</strong> with per-tenant schema isolation and dynamic form builder engine with conditional logic and branching.</li>
+        <li>Managed a team of <strong>up to 14 engineers</strong> - code reviews, sprint planning, technical roadmap, junior mentoring.</li>
+        <li>Stack: Laravel, Vue.js, MySQL, role-based access control, API layer for third-party integrations.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">Amazon Web Services</span>
+        <span class="job-period">Nov 2015 - Sep 2018</span>
+      </div>
+      <div class="job-role">Senior Developer (Cloud Infrastructure) <span class="job-location">- Singapore</span></div>
+      <ul>
+        <li>Migrated <strong>25+ enterprise applications</strong> from on-premise to AWS across Southeast Asia (Singapore, Malaysia, Vietnam) - maintained <strong>99.9% SLA</strong> during live migration windows.</li>
+        <li>Designed cloud security and resilience architectures: VPC segmentation, IAM least-privilege, multi-AZ RDS, Auto Scaling, CloudFront.</li>
+        <li>Provided technical onboarding for <strong>20+ client organizations</strong> - adapted cloud architecture per each client's existing stack and compliance requirements.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <span class="job-company">Cloud Computing Business Innovation Sdn. Bhd.</span>
+        <span class="job-period">2010 - 2019</span>
+      </div>
+      <div class="job-role">Senior Software Developer &amp; CEO (Co-Founder) <span class="job-location">- Malaysia</span></div>
+      <ul>
+        <li>Co-founded and led an <strong>MSC-status IT company</strong> with up to 14 engineers delivering enterprise software to government agencies, universities, and private enterprises.</li>
+        <li>Built ZAR (web-based accounting for SMEs), HR management systems with Malaysian payroll compliance, and multi-tenant client portals.</li>
+        <li>Named <strong>Top Web Developer Southeast Asia 2019</strong>.</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- OPEN SOURCE & NODE.JS PRODUCTION PROJECTS -->
+  <div class="section">
+    <div class="section-title">Open Source Extensions &amp; Node.js Projects</div>
+
+    <div class="project">
+      <span class="project-title">Twenty CRM - Node.js / GraphQL API Extension</span>
+      <span class="project-badge">Node.js - Production</span>
+      <div class="project-desc">
+        Extended the open-source Twenty CRM (Node.js + GraphQL + React, Salesforce alternative) with bulk lead import mutations,
+        linked task creation, and custom pipeline flows. Configured <strong>OpenResty reverse proxy with SSL</strong> for production deployment.
+        Full-stack Node.js + GraphQL API work in a real production environment.
+      </div>
+      <div class="project-tech">Stack: Node.js, GraphQL, React, PostgreSQL, OpenResty, Docker</div>
+    </div>
+
+    <div class="project">
+      <span class="project-title">Umami Analytics - Multi-Tenant Extension</span>
+      <span class="project-badge">Next.js - Production</span>
+      <div class="project-desc">
+        Extended the open-source Umami Analytics platform (Next.js + PostgreSQL) with custom event tracking modules,
+        multi-tenant dashboard support, and RTL layout. Deployed as self-hosted analytics backbone for BNPL and e-commerce platforms.
+      </div>
+      <div class="project-tech">Stack: Next.js, PostgreSQL, Docker</div>
+    </div>
+
+    <div class="project">
+      <span class="project-title">Dub.co - Link Attribution Platform</span>
+      <span class="project-badge">Next.js - Production</span>
+      <div class="project-desc">
+        Self-hosted and extended Dub.co (Next.js + Prisma) for campaign tracking across e-commerce funnels.
+        Integrated with platform analytics pipelines and customized link metadata for regional audience targeting.
+      </div>
+      <div class="project-tech">Stack: Next.js, Prisma, PostgreSQL</div>
+    </div>
+
+  </div>
+
+  <!-- EDUCATION -->
+  <div class="section">
+    <div class="section-title">Education</div>
+
+    <div class="edu-item">
+      <div class="edu-header">
+        <span class="edu-title">M.Sc. Software Engineering - <span class="edu-org">Staffordshire University, UK</span></span>
+        <span class="edu-year">2011-2013</span>
+      </div>
+      <div class="edu-desc">GPA: 17/20 | Thesis: Cloud-based distributed systems architecture</div>
+    </div>
+
+    <div class="edu-item">
+      <div class="edu-header">
+        <span class="edu-title">B.Sc. Computer Hardware Engineering - <span class="edu-org">Azad University, Tehran</span></span>
+        <span class="edu-year">2005-2010</span>
+      </div>
+      <div class="edu-desc">GPA: 16/20</div>
+    </div>
+  </div>
+
+  <!-- CERTIFICATIONS -->
+  <div class="section">
+    <div class="section-title">Certifications &amp; Achievements</div>
+    <div class="cert-table">
+      <div class="cert-item">
+        <div class="cert-title">IELTS Band 7.0 - English Proficiency</div>
+        <div class="cert-org"></div>
+        <div class="cert-year">C1+</div>
+      </div>
+      <div class="cert-item">
+        <div class="cert-title">Porto Architecture Practitioner - Applied in 2 production systems (Sinapse, Shahr-e-Aghsat)</div>
+        <div class="cert-org"></div>
+        <div class="cert-year">2024-25</div>
+      </div>
+      <div class="cert-item">
+        <div class="cert-title">Top Web Developer - Southeast Asia</div>
+        <div class="cert-org"></div>
+        <div class="cert-year">2019</div>
+      </div>
+      <div class="cert-item">
+        <div class="cert-title">MSC-Status Company Certification - Cloud Computing Business Innovation, Malaysia</div>
+        <div class="cert-org"></div>
+        <div class="cert-year">2012</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
