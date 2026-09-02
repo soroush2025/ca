@@ -1,0 +1,301 @@
+# =============================================================================
+# career-ops · config/profile.yml
+# Soroush Gholami — Senior Full-Stack Developer
+# Target Market: Turkey (Istanbul preferred)
+# =============================================================================
+# This file is the single source of truth for your identity.
+# All modes (evaluate, pdf, scan, batch, contacto) read from here.
+# Edit freely — this is YOUR layer. System updates never touch this file.
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# CANDIDATE — Personal contact details
+# -----------------------------------------------------------------------------
+candidate:
+  name: Soroush Gholami
+  email: soroush2025@gmail.com
+  telegram: "+905059399702"
+  telegram_handle: "@soroush2030"
+  location: Middle East (open to relocation — Istanbul preferred)
+  linkedin: https://linkedin.com/in/soroushgholami
+  portfolio: ~ # Add your portfolio URL here when available
+  github: ~ # Add GitHub profile if applicable
+  languages:
+    - language: English
+      level: Professional (IELTS 7.0 · C1+)
+    - language: Persian / Farsi
+      level: Native
+    - language: Malay
+      level: Conversational
+
+# -----------------------------------------------------------------------------
+# TARGET ROLES — What you are looking for
+# -----------------------------------------------------------------------------
+target_roles:
+  # Primary archetypes — these drive how offers are evaluated and CVs are framed
+  archetypes:
+    - name: Senior Full-Stack Developer
+      description: >
+        Laravel + React/Next.js stack, complex product platforms,
+        e-commerce or fintech systems with real transaction volume.
+        Sweet spot: a team that needs someone who can own backend
+        architecture end-to-end and ship product.
+
+    - name: Senior Backend Engineer
+      description: >
+        PHP/Laravel or Node.js, REST/GraphQL APIs, database optimization,
+        cloud infra (AWS/Docker). Companies building SaaS or financial
+        products at scale.
+
+    - name: Tech Lead / Lead Developer
+      description: >
+        Team leadership (code reviews, roadmap, architecture decisions),
+        cross-functional collaboration, mentoring junior developers.
+        Proven as team lead at IranSampler — up to 14 engineers as CEO.
+
+  # Sectors you want to target (used by scanner and evaluator)
+  target_sectors:
+    - Fintech & Payment Systems
+    - E-Commerce & BNPL
+    - SaaS Platforms
+    - AI-powered Products
+    - Cloud Infrastructure
+
+  # Roles to actively pursue
+  title_keywords_positive:
+    - Senior Full-Stack Developer
+    - Senior Backend Developer
+    - Senior PHP Developer
+    - Senior Laravel Developer
+    - Lead Developer
+    - Tech Lead
+    - Software Engineer
+    - Backend Engineer
+    - Full Stack Engineer
+
+  # Roles to skip — don't waste time evaluating these
+  title_keywords_negative:
+    - Junior
+    - Intern
+    - Frontend Only
+    - WordPress Developer
+    - Data Scientist
+    - Machine Learning Engineer
+    - DevOps Engineer
+    - QA Engineer
+    - Scrum Master
+    - Product Manager
+
+# -----------------------------------------------------------------------------
+# NARRATIVE — How you tell your story (used in cover letters, LinkedIn outreach,
+# interview prep, and CV tailoring)
+# -----------------------------------------------------------------------------
+narrative:
+  headline: >
+    Senior Full-Stack Developer with 15+ years of international experience
+    building fintech platforms, BNPL systems, and enterprise-grade web
+    applications across Southeast Asia and the Middle East.
+
+  elevator_pitch: >
+    I architect and ship complex product systems — not just features.
+    My most recent work was building an entire BNPL e-commerce platform
+    from scratch (12 modules, live payment gateway, wallet system) that
+    now processes over 100 billion IRR annually. Before that, I spent
+    3 years at Amazon Web Services migrating 25+ enterprise applications
+    to AWS across Southeast Asia. I combine deep Laravel expertise with
+    modern React/Next.js frontends, and I actively use AI-assisted
+    development workflows (Claude AI, Copilot) to ship faster without
+    cutting corners on architecture.
+
+  # Your strongest differentiators — what makes you stand out
+  superpowers:
+    - >
+      Fintech depth: payment gateway integration,
+      wallet systems, BNPL logic, loan calculation engines — rare combination
+      for most backend engineers.
+    - >
+      Full product ownership: I have co-founded a company, led teams of 14,
+      and shipped entire platforms solo. I understand product, not just code.
+    - >
+      AWS pedigree: 3 years at Amazon Web Services in Singapore, migrating
+      25+ enterprise apps — cloud architecture is not just something I've
+      read about.
+    - >
+      Porto Architecture practitioner: applied in production at two companies
+      (Sinapse, Shahr-e-Aghsat) — separates me from developers who only
+      know MVC.
+    - >
+      International track record: Malaysia, Singapore, Vietnam, Middle East,
+      UK education — strong cross-cultural communication and English fluency
+      (IELTS 7.0).
+    - >
+      AI-augmented workflows: actively use Claude AI, GitHub Copilot, and
+      Cursor IDE in daily development — relevant for any company investing
+      in AI tooling.
+
+  # Key proof points — hero metrics to deploy in evaluations and cover letters
+  proof_points:
+    - "Built and shipped a full BNPL platform (12 modules) — now processing 100B+ IRR/year in live transactions"
+    - "Migrated 25+ enterprise applications to AWS during 3 years at Amazon Web Services, Singapore"
+    - "Co-founded and led an MSC-status IT company in Malaysia with up to 14 engineers (2010–2019)"
+    - "Applied Porto architecture in two separate production systems (Sinapse, Shahr-e-Aghsat)"
+    - "Led full WordPress → Laravel + React migration for a US-based e-learning platform"
+    - "M.Sc. Software Engineering, Staffordshire University UK — GPA 17/20, thesis on distributed cloud systems"
+    - "IELTS Band 7.0 (C1+) — professional-level English communication"
+
+  # What you are NOT good at / what to avoid highlighting
+  gaps_to_manage:
+    - Limited experience with pure mobile development (iOS/Android)
+    - No public GitHub portfolio yet (mention portfolio projects by URL instead)
+    - Most recent experience is in MENA fintech — pivot Turkey context around transferable payment systems and BNPL expertise
+
+  # Your career story (used for interview "tell me about yourself")
+  exit_story: >
+    My career has been built around solving complex problems in environments
+    where the easy path doesn't exist — founding a company in Malaysia,
+    migrating enterprise systems at AWS Singapore, architecting BNPL
+    platforms in the Middle East. I'm now targeting Turkey because it's
+    one of the fastest-growing tech ecosystems in the region, with a
+    thriving fintech scene (Papara, İyzico, Moka) and a strong demand
+    for senior engineers who can own systems end-to-end. I bring exactly
+    that: 15 years of scar tissue from building things that actually run
+    in production.
+
+# -----------------------------------------------------------------------------
+# COMPENSATION — Salary targets (used in negotiation mode)
+# -----------------------------------------------------------------------------
+compensation:
+  currency_preference: USD # Request USD or EUR — avoids TRY volatility
+  target_range:
+    min: 2000 # USD/month net — adjust to market research
+    max: 6000 # USD/month net
+  minimum_acceptable: 3000 # USD/month net — walk-away point
+  notes: >
+    Open to equity in early-stage startups if the product is compelling.
+    Prefer USD or EUR contracts to avoid currency risk.
+    For Istanbul on-site roles: factor in relocation support (one-time flight + 
+    first month accommodation) as part of the offer negotiation.
+
+  # Negotiation stances (used by negotiation mode)
+  negotiation_posture:
+    geographic_discount: >
+      I'm relocating to Istanbul — I expect the offer to reflect Istanbul
+      market rates for a senior engineer, not a geographic discount based
+      on my current Middle East location.
+    competing_offer_leverage: >
+      I am evaluating multiple opportunities across Turkey and remotely.
+      I prefer to move quickly with the right fit.
+    pushback_script: >
+      I appreciate the offer. Based on my research into Istanbul senior
+      developer rates and the scope of this role, I was expecting something
+      closer to [target]. Is there flexibility there, or alternatively
+      on the equity / annual review timeline?
+
+# -----------------------------------------------------------------------------
+# LOCATION — Availability and relocation preferences
+# -----------------------------------------------------------------------------
+location:
+  current_country: Iran / Middle East
+  target_country: Turkey
+  target_cities:
+    - Istanbul # First preference
+    - Ankara # Open to it
+    - Remote # Also welcome if company is Turkey-based
+  relocation: true
+  relocation_timeline: Ready within 4–8 weeks of offer acceptance
+  visa_notes: >
+    Iranian passport — will need employer-sponsored work permit for Turkey.
+    Eligible to get new tech visa.
+    Turkey has a straightforward work visa process for tech professionals.
+    Please confirm if the company sponsors work permits before applying.
+  remote_preference: hybrid # options: remote / hybrid / onsite
+  timezone: UTC+3 (Istanbul) — currently UTC+3:30, minimal adjustment
+
+# -----------------------------------------------------------------------------
+# SCORING WEIGHTS — How career-ops evaluates offers (1–5 per dimension)
+# Adjust to reflect what matters most to you right now.
+# -----------------------------------------------------------------------------
+scoring_weights:
+  role_match: 0.25 # Does the role fit my target archetypes?
+  tech_stack_fit: 0.20 # Laravel/PHP/React/Node.js/AWS alignment
+  company_quality: 0.15 # Stage, funding, product credibility
+  compensation_fit: 0.15 # Does it hit my target range?
+  growth_potential: 0.10 # Can I grow technically and in seniority?
+  location_fit: 0.10 # Istanbul / remote / hybrid alignment
+  work_permit_clarity: 0.05 # Does the company sponsor visas?
+
+# -----------------------------------------------------------------------------
+# DO NOT APPLY — Automatic disqualifiers (score will be F regardless)
+# -----------------------------------------------------------------------------
+disqualifiers:
+  - Requires Turkish citizenship only (no permit sponsorship)
+  - Junior or entry-level role
+  - Pure frontend / CSS / design role
+  - PHP 5.x or legacy stack with no modernization plan
+  - Salary clearly below $2500 USD/month equivalent
+  - Commission-only or freelance-only structure
+
+# -----------------------------------------------------------------------------
+# INTERVIEW PREP CONTEXT — Used by the interview prep mode
+# -----------------------------------------------------------------------------
+interview_prep:
+  # STAR stories that answer almost any behavioral question
+  star_stories:
+    - title: Building the BNPL Platform from Scratch
+      situation: >
+        Hired as sole architect and developer for a new BNPL e-commerce
+        platform (Shahr-e-Aghsat) with no existing codebase.
+      task: >
+        Design and build 12 modules including wallet, loan management,
+        installment scheduling, and live payment gateway integration.
+      action: >
+        Applied Porto architecture (Containers/Ship pattern) to ensure
+        clean separation of concerns. Built Laravel backend + Next.js
+        frontend. Integrated BehPardakht gateway with full error handling
+        and transaction reconciliation. Used Claude AI to accelerate
+        complex refactoring cycles.
+      result: >
+        Platform is live and processing over 10 billion IRR in annual
+        transactions. All 12 modules shipped and operating in production.
+      reflection: >
+        Confirmed I can own a full product system end-to-end — from
+        architecture decisions to database design to payment integration —
+        without needing a large team behind me.
+
+    - title: AWS Enterprise Migration (Singapore)
+      situation: >
+        Amazon Web Services, Singapore — responsible for migrating
+        enterprise clients from on-premise infrastructure to AWS cloud.
+      task: >
+        Migrate 25+ enterprise applications across Southeast Asia,
+        covering 20+ client organizations.
+      action: >
+        Designed cloud security, scalability, and resilience architectures.
+        Provided hands-on migration execution and technical onboarding
+        for each client. Adapted the approach per client's existing stack.
+      result: >
+        25+ applications migrated successfully over 3 years.
+        Clients across Singapore, Malaysia, Vietnam onboarded to AWS.
+      reflection: >
+        Working at AWS gave me a systems-level view of cloud infrastructure
+        that most developers who only use cloud services never get.
+
+    - title: Co-founding and Leading an IT Company in Malaysia
+      situation: >
+        Co-founded Cloud Computing Business Innovation Sdn. Bhd. in Malaysia
+        from zero, targeting government agencies and universities.
+      task: >
+        Build a sustainable technology company, deliver enterprise software,
+        and grow a team while managing client relationships.
+      action: >
+        Recruited and led up to 14 engineers. Delivered ZAR (accounting
+        platform), HR management systems with Malaysian payroll compliance,
+        and multi-tenant client portals. Obtained MSC-status certification.
+      result: >
+        Company ran successfully from 2010–2019. Delivered for government,
+        universities, and private enterprises. Named Top Web Developer
+        Southeast Asia 2019.
+      reflection: >
+        Running a company taught me how to make decisions under uncertainty,
+        manage people, and think about software as a business asset —
+        not just code.
