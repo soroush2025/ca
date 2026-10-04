@@ -195,19 +195,33 @@ compensation:
 # LOCATION — Availability and relocation preferences
 # -----------------------------------------------------------------------------
 location:
-  current_country: Iran / Middle East
+  current_country: Turkey
   target_country: Turkey
   target_cities:
     - Istanbul # First preference
     - Ankara # Open to it
     - Remote # Also welcome if company is Turkey-based
+
+  # ---------------------------------------------------------------------------
+  # WORK AUTHORIZATION — settled. Stated by Soroush 2026-09-04.
+  # These two structured keys are what modes/oferta.md's work-authorization
+  # check reads (it falls back to free-text visa_notes only when they're
+  # absent). With authorized_in: [Turkey] and needs_sponsorship: false, every
+  # Turkey-based or Turkey-remote role resolves to "➖ Not needed" and is
+  # score-neutral. Do NOT re-add a work-permit scoring dimension.
+  # ---------------------------------------------------------------------------
+  authorized_in:
+    - Turkey
+  needs_sponsorship: false
+  visa_notes: >
+    Holds his own Turkish residence. Work authorization in Turkey is settled and
+    requires no employer sponsorship. Do not raise, score, or flag visa / work
+    permit / sponsorship as an evaluation dimension for Turkey-based or
+    Turkey-remote roles. Roles outside Turkey are a separate question and are
+    not covered by this note.
+
   relocation: true
   relocation_timeline: Ready within 4–8 weeks of offer acceptance
-  visa_notes: >
-    Iranian passport — will need employer-sponsored work permit for Turkey.
-    Eligible to get new tech visa.
-    Turkey has a straightforward work visa process for tech professionals.
-    Please confirm if the company sponsors work permits before applying.
   remote_preference: hybrid # options: remote / hybrid / onsite
   timezone: UTC+3 (Istanbul) — currently UTC+3:30, minimal adjustment
 
@@ -217,12 +231,15 @@ location:
 # -----------------------------------------------------------------------------
 scoring_weights:
   role_match: 0.25 # Does the role fit my target archetypes?
-  tech_stack_fit: 0.20 # Laravel/PHP/React/Node.js/AWS alignment
+  tech_stack_fit: 0.25 # Laravel/PHP/React/Node.js/AWS alignment
   company_quality: 0.15 # Stage, funding, product credibility
   compensation_fit: 0.15 # Does it hit my target range?
   growth_potential: 0.10 # Can I grow technically and in seniority?
   location_fit: 0.10 # Istanbul / remote / hybrid alignment
-  work_permit_clarity: 0.05 # Does the company sponsor visas?
+  # work_permit_clarity removed 2026-09-04 — work authorization is settled
+  # (location.authorized_in). Its 0.05 was folded into tech_stack_fit, which
+  # is the axis that has actually driven outcomes in the tracker: Papara,
+  # iyzico, Trendyol, Peak and Beta.Limited were all lost on stack, not permit.
 
 # -----------------------------------------------------------------------------
 # DO NOT APPLY — Automatic disqualifiers (score will be F regardless)

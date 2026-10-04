@@ -11,8 +11,9 @@
 
 ## Identity
 Senior Full-Stack Developer — 15+ yrs (Malaysia · Singapore · Vietnam · Middle East · UK M.Sc.).
-Currently Middle East (UTC+3:30), relocating to Istanbul (UTC+3), ready in 4–8 weeks.
-**Iranian passport — requires employer-sponsored Turkish work permit.** English IELTS 7.0 (C1+).
+Targeting Istanbul (UTC+3), ready in 4–8 weeks.
+**Work authorization in Turkey is settled — holds his own Turkish residence, no sponsorship needed.
+Do not evaluate or flag visas / work permits.** English IELTS 7.0 (C1+).
 
 ## Target Archetypes
 
@@ -52,11 +53,17 @@ For Istanbul on-site: relocation support (one-time flight + first month accommod
 - On-site 5 days/week outside Istanbul/Ankara, no flexibility → **1.5**
 - High travel (>25%) → deduct 0.5–1.0
 
-## Work Permit Scoring (Turkey-specific — weight this, it is a real gate)
-- JD explicitly mentions visa/work-permit sponsorship → **5.0**
-- Multinational / 30+ countries / known relocation program → **3.5**
-- Turkish SME, no mention → **1.5**
-- JD states Turkish citizenship required → **DISQUALIFIER, score ≤ 2.0**
+## Work Permit Scoring — REMOVED (2026-09-04)
+Not a gate, not a dimension, not a reported signal. Work authorization is settled
+(`config/profile.yml` → `location.authorized_in: [Turkey]`, `needs_sponsorship: false`).
+A JD silent on sponsorship is irrelevant, not a red flag.
+
+**Only remaining hard fail:** a JD explicitly requiring Turkish **citizenship**
+(residence is not citizenship). Roles outside Turkey are a separate question — ask.
+
+**Screen for contract structure instead:** employment with SGK registration versus a
+contractor/service agreement he invoices against, and whether pay is USD/EUR or TRY.
+That is the axis that actually decides these roles now.
 
 ## Hard DQ Criteria — instant FAIL (< 3.0)
 - Turkish citizenship required / explicitly no permit sponsorship

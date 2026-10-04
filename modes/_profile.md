@@ -71,15 +71,14 @@ Frame as **"Senior engineer with fintech depth and proven delivery at scale"**:
 **When offered below target:**
 > "I appreciate the offer. Based on my research into Istanbul senior PHP rates and the scope of this role, I was expecting something closer to [target]. Is there flexibility there, or alternatively on the equity / annual review timeline?"
 
-**Work permit question (ask early):**
-> "Before we go further, I want to confirm: does [company] sponsor work permits for Turkey? I'm relocating from the Middle East and want to make sure we're aligned before investing time on both sides."
+**Contract structure question (ask early, replaces the old work-permit question):**
+> "Before we go further: is this an employment contract with SGK registration, or a contractor/service agreement I'd invoice against? I want to make sure we're aligned on structure before investing time on both sides."
 
 ## Your Location Policy
 
-**Current:** Middle East (Iran)  
+**Work authorization:** Settled. Holds his own Turkish residence — no employer sponsorship needed.  
 **Target:** Istanbul (first), Ankara (open), Remote Turkey-based (welcome)  
 **Relocation timeline:** Ready within 4–8 weeks of offer acceptance  
-**Visa:** Iranian passport — needs employer-sponsored work permit for Turkey  
 
 **In evaluations (scoring):**
 - Remote Turkey-based: location_fit = 5.0
@@ -88,15 +87,24 @@ Frame as **"Senior engineer with fintech depth and proven delivery at scale"**:
 - Remote (any country, Turkey-based company): location_fit = 4.0
 - On-site 5 days/week outside Istanbul, no flexibility: location_fit = 1.5
 
-**Work permit scoring:**
-- JD explicitly mentions sponsorship: work_permit_clarity = 5.0
-- Company is multinational / 30+ countries: work_permit_clarity = 3.5
-- Turkish SME, no mention: work_permit_clarity = 1.5
-- JD says Turkish citizenship required: DISQUALIFIER — score ≤ 2.0
+**Work permit scoring: REMOVED (2026-09-04, stated by Soroush).**
+There is no `work_permit_clarity` dimension any more. Do not score it, do not
+reintroduce it, and do not report a "work permit signal" line. `config/profile.yml`
+sets `location.authorized_in: [Turkey]` and `location.needs_sponsorship: false`,
+so `modes/oferta.md`'s work-authorization check resolves every Turkey-based or
+Turkey-remote role to **➖ Not needed**, which is score-neutral. A JD that is
+silent on sponsorship is simply irrelevant, not a soft red flag.
+
+The one thing that still matters: a JD that **explicitly requires Turkish
+citizenship** (not residence, not a work permit) remains a disqualifier, because
+residence is not citizenship. That is the only remaining case — flag nothing else.
+
+Roles located **outside Turkey** are a separate question this note does not
+cover; if one comes up, ask rather than assume.
 
 ## Disqualifiers (auto-fail regardless of other scores)
 
-- Requires Turkish citizenship only (no permit sponsorship)
+- Requires Turkish citizenship (residence is not citizenship — still a hard fail)
 - Junior or entry-level role
 - Pure frontend / CSS / design role
 - PHP 5.x or legacy stack with no modernization plan

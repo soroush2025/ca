@@ -16,11 +16,19 @@
 
 ## House Rules
 
-**Work permit is a first-class evaluation dimension.** Iranian passport,
-relocating to Turkey — every evaluation must state the sponsorship signal
-explicitly, even when the JD is silent (say "not mentioned"). Never let a
-report imply permit clarity that the posting does not actually provide.
-Silence from a Turkey-only employer is a soft red flag, not a neutral.
+**Do NOT evaluate work permits, visas, or sponsorship.** (Set 2026-09-04,
+replacing the opposite rule.) Soroush holds his own Turkish residence; work
+authorization is settled and needs no employer sponsorship. Never emit a
+"work permit signal" line, never score a `work_permit_clarity` dimension,
+never treat a JD's silence on sponsorship as a red flag, and never ask him to
+"confirm the work permit before applying". `config/profile.yml` carries
+`location.authorized_in: [Turkey]` and `location.needs_sponsorship: false`, so
+Turkey-based and Turkey-remote roles resolve to **➖ Not needed** and stay
+score-neutral.
+
+Two narrow exceptions, and nothing else: a JD that explicitly requires Turkish
+**citizenship** is still a hard fail (residence is not citizenship), and a role
+located **outside Turkey** is a separate question — ask rather than assume.
 
 **Quote compensation in USD or EUR, monthly, net.** If a posting advertises
 TRY, convert it and show both (`TRY 120,000/mo ≈ USD X/mo net at <rate>, <date>`).
@@ -51,16 +59,20 @@ See the "Figure to confirm" section in `modes/_brief.md`.
 
 **"turkey scan"** — run `scan`, filter to Turkey-based employers and remote roles
 open to Turkey, then triage against `modes/_brief.md`. Report PASS roles with the
-work-permit signal on every line. Do not evaluate below the triage threshold.
+contract structure and pay currency on every line. Do not evaluate below the
+triage threshold.
 
 **"istanbul shortlist"** — from the current tracker, list roles in `Evaluated`
-state scoring ≥ 4.0 that have an Istanbul or remote-Turkey location and any
-positive sponsorship signal. One line each: company · role · score · permit signal.
+state scoring ≥ 4.0 that have an Istanbul or remote-Turkey location. One line
+each: company · role · score · contract structure (employment vs contractor,
+or "unknown").
 
-**"permit check <company>"** — before investing time on an application, research
-whether the company has sponsored Turkish work permits before (careers page,
-job-posting language, LinkedIn employee nationality mix). Report what was found
-and what could not be established — no guessing.
+**"structure check <company>"** — (replaced "permit check" on 2026-09-04, which
+is obsolete now that work authorization is settled.) Before investing time on an
+application, establish how the engagement is actually structured: employment with
+SGK registration versus a contractor/service agreement he would invoice against,
+and whether pay is denominated in USD/EUR or TRY. Report what was found and what
+could not be established — no guessing.
 
 **"prep <company>"** — pull the JD from the report, map `interview-prep/story-bank.md`
 STAR stories onto it, and draft 5 likely questions. Run
@@ -71,7 +83,7 @@ STAR stories onto it, and draft 5 likely questions. Run
 
 - **All human-facing output in English.** Keep Turkish market terms (SGK, kıdem
   tazminatı, brüt/net maaş, BES) where relevant, but explain them inline.
-- Reports lead with the score, the one-line verdict, and the work-permit signal.
+- Reports lead with the score and the one-line verdict. No work-permit line.
 - Comp always monthly + net + currency. Never a bare number.
 - CV/PDF filenames stay in the existing convention:
   `cv-soroush-gholami-{company}-{role}-{YYYY-MM-DD}.pdf`.
